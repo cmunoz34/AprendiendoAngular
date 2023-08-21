@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+.body{
+    background:#efefef !important;
+    }
+    .relative{
+        position: relative;
+    }
+    #router{
+        margin:40px 0;
+    }
+   
+    .txtwhite{
+        color: #fff;
+    }
+    .sinmargen{
+        padding: 0;
+        margin: 0;
+    }
+
+    h1,h2{
+        font-weight: 300 !important;
+    }

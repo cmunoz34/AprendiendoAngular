@@ -1,0 +1,35 @@
+@media (max-width:680px){
+    #logo-menu{
+        display: none;
+    }
+  }
+
+  #menuPrincipal{
+    margin: 30px auto 0 auto;
+    max-width: 680px;
+    display: block;
+    border-radius: 10px;
+}
+
+.navbar li{
+ text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  background-color: #e44234;
+  color: #ffffff;
+  border-radius:8px;
+}
+
+
+.navbar-nav li:hover {
+    color: #e44234; 
+    border-radius:8px;
+  }
+  
+  .navbar-nav li:hover a {
+    color: #e44234; 
+    cursor:pointer;
+  }
+
+

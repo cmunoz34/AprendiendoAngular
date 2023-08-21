@@ -1,0 +1,61 @@
+/* peliculas.component.css */
+.peliculas-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .pelicula {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 140px;
+    max-height: 280px;
+    background-color: #fff; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+
+  }
+  
+  .pelicula img {
+    margin: 2px auto;
+    max-width: 100%;
+    min-height: 150px;
+    border: 0;
+    border-radius: 8px;
+  }
+  .pelicula span{
+    display: block;
+  }
+  .pelicula .date{
+    font-size: 12px;
+  }
+  .pelicula a{
+    text-decoration: none;
+    font-size:13px;
+  }
+
+  .primera{
+    display: inline-block;
+    padding:3px 10px;
+    background-color: #fff; /* Color de fondo */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  .year-red{
+    display: block;
+    background: red;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .year-blue{
+    display: block;
+    background: #226cc2;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 5px;
+    text-align: center;
+  }

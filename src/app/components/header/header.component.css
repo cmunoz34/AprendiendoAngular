@@ -1,0 +1,71 @@
+#header{
+    background: #fff;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    min-height: 480px;
+    height: 80vh;
+    max-height: 560px;
+    box-sizing: border-box;
+    padding: 48px 48px 32px;
+    overflow: hidden;
+    transform: skewY(8deg);
+    transform-origin: 100%;
+}
+
+.background-sky {
+    background: linear-gradient(145deg,#0d47a1,#42a5f5);
+    color: #000000de;
+}
+
+#header .card{
+    background:none !important;
+    border:0;
+}
+
+#header i{
+    color:#fff;
+    margin:0 10px;
+}
+#logo-menu{
+    width: 130px;
+    height: 130px;
+    margin: 40px auto -10px auto;
+}
+
+
+.card{ 
+    flex-direction: row !important;
+}
+
+  
+  @media (max-width:680px){
+    #logo-menu{
+        display: none;
+    }
+    .logo-full{
+        width: 300px;
+        margin: 20px auto 20px auto;
+        display: block;
+    }
+    .fa-3x{
+        font-size: 2em;
+    }
+  }
+
+.barra{
+    background: #dd0031;
+    position: relative;
+    height: 7px;
+    z-index: 9999 !important;
+}
+
+.glep{
+    margin-top: 10px;
+}

@@ -1,0 +1,38 @@
+<h1 class="txtwhite sinmargen">Peliculas en Cartelera</h1>
+
+<h3 class="txtwhite">Estreno reciente</h3>
+<p class="primera">{{peliculas[0].title}}</p>
+
+<hr/>
+
+<div *ngIf="peliculas.length < 2">
+    <h5>Número de peliculas</h5>
+    Hay pocas peliculas
+</div>
+
+<h5>Número de peliculas</h5>
+<div *ngIf="peliculas.length >=3">
+    <p>{{peliculas.length}} en cartelera</p>
+</div>
+
+
+
+<!-- peliculas.component.html -->
+<article *ngIf="peliculas">
+    <h2>Listado de Películas</h2>
+    <div class="peliculas-list">
+      <div class="pelicula" *ngFor="let pelicula of peliculas; let i = index;">
+        <p>{{ pelicula.title }}</p>
+        <img [src]="pelicula.image" alt="{{ pelicula.title }}" />
+        <span class="date" [ngClass] ="{ 
+          'year-blue': pelicula.year >= 2016,
+          'year-red': pelicula.year < 2016
+        }"
+        >
+          {{pelicula.year}}
+        </span>
+        <a href="#;">Leer Más</a>
+      </div>
+    </div>
+  </article>
+  
